@@ -9,6 +9,6 @@ with open("/Users/winnie26/Documents/SMS_script/password.txt") as f:
     res = to_list.pop(0)
     pyperclip.copy(res)
     new_s = " ".join(to_list)
-with open("/Users/winnie26/Documents/SMS_script/sms.txt",'w') as writer:
+with open("/Users/winnie26/Documents/SMS_script/password.txt",'w') as writer:
     writer.write(new_s)
 exit()
